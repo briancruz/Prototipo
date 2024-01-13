@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <style>
+        /* Puedes agregar estilos CSS aquí según tus necesidades */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        /* Otros estilos... */
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Factura</h1>
+    </header>
+
+    <section id="informacion-cliente">
+        <h2>Información del Cliente</h2>
+        <p>Nombre del Cliente: Juan Pérez</p>
+        <p>Dirección: Calle Principal 123</p>
+        <p>Ciudad: Ciudad Cliente</p>
+        <!-- Agrega más información del cliente según sea necesario -->
+    </section>
+
+    <section id="informacion-vendedor">
+        <h2>Información del Vendedor</h2>
+        <p>Nombre del Vendedor: Tu Nombre</p>
+        <p>Dirección: Calle Vendedor 456</p>
+        <p>Ciudad: Ciudad Vendedor</p>
+        <!-- Agrega más información del vendedor según sea necesario -->
+    </section>
+
+    <section id="detalles-factura">
+        <h2>Detalles de la Factura</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Producto 1</td>
+                    <td>2</td>
+                    <td>$50.00</td>
+                    <td>$100.00</td>
+                </tr>
+                <!-- Agrega más filas según los productos de la factura -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="total-factura">
+        <h2>Total de la Factura</h2>
+        <p>Total: $200.00</p>
+    </section>
+
+    <footer>
+        <p>Gracias por su compra</p>
+    </footer>
+
+</body>
+</html>
